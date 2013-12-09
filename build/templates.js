@@ -46,7 +46,7 @@
       content = _ref[_i];
       field_template = field_elem.clone();
       field_template.append(content);
-      field_elem.after(field_template);
+      field_elem.before(field_template);
     }
     return field_elem.remove();
   };

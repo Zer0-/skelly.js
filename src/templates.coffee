@@ -28,7 +28,7 @@ template_fillmany = (field_elem, field_name, fill_data) ->
     for content in fill_data[field_name]
         field_template = field_elem.clone()
         field_template.append content
-        field_elem.after field_template
+        field_elem.before field_template
     field_elem.remove()
 
 template_toggle = (field_elem, field_name, fill_data) ->
