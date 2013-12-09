@@ -11,7 +11,7 @@ needs jquery
 
 Will do in a pinch.
 
-#### A Template element is anythig with a data-js_template_name attribute
+#### A Template element is anything with a data-js_template_name attribute
 ```html
 <div class="js-templates" style="display: none;">
     <article data-js_template_name="preview_comment">
